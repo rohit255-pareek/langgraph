@@ -14,4 +14,4 @@ def generate_gemini_response(prompt, context):
         }]
     }
     response = requests.post(GEMINI_URL, json=payload)
-    return response.json()['candidates'][0]['content']['parts'][0]['text']  
+    return response.json()['candidates'][0]['content']['parts'][0]['text']   

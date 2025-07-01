@@ -10,4 +10,4 @@ if st.button("Run SmartOps AI") and query:
     with st.spinner("Analyzing your query..."):
         result = run_conversation(query)
         st.success("Here's your smart strategy!")
-        st.write(result)
+        st.write(result) 
